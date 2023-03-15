@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* HEADER START */
+
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ffcb04;
+    height: 120px;
+    width: 100%;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+
+}
+
+/* .lang_button .options{
+    margin-right: 100px;
+    border: 0;
+    background-color: #ffcb04;
+    color: black;
+    font-size: 16px;
+} */
+
+.logo{
+
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+/* HEADER BUTTONS CSS*/
+
+.button1 {
+    background-color: black;
+    color: #ffcb04;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    width: 263px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2{
+    background-color: #ffcb04;
+    color: black;
+    border: 1px solid black;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADING END */
+
+/* BOTTOM HEADING START */
+
+.bottom-heading{
+
+    display: flex;
+    height: 106px;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: sticky;
+    top: 0;
+    
+}
+
+.name{
+
+    width: 390px;
+    height: 50px;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.email{
+
+    width: 390px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button3{
+
+    width: 390px;
+    height: 50px;
+    background-color: #ffcb04;
+    color: black;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BOTTOM HEADING END */
+
+/* EXXENSPOR IMG */
+
+.banner{
+
+    display: block;
+    width: 1274px;
+    height: 648px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   
+}
+
+/* EXXENSPOR IMG END */
+
+/* POSTERS START */
+.container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-right: 296px;
+    margin-left: 296px;
+    
+}
+
+.movie-img img{
+
+    width: 318px;
+    height: 480px;
+    padding: 1rem;
+    
+
+
+}
+
+.movie .movie-name{
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* POSTERS END */
+
+/* FOOTER START */
+
+footer .footer .device-img{
+
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 320px;
+    height: 142px;
+}
+
+footer .footer-content h1{
+
+    font-size: 40px;
+    color: white;
+    padding: 0 451px;
+    margin: 30px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-logos img{
+
+    width: 148px;
+    height: 40px;
+    margin: 5px;
+
+}
+
+.app-logos{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
